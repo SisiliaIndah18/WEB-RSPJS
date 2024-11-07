@@ -1,4 +1,4 @@
-/* Responsive adjustments
+/* Responsive adjustments TESTTTTTT
 @media (max-width: 1320px) {
  
 }*/
@@ -10,6 +10,9 @@
   justify-content: center;
   width: 100%;
   max-width: 1440px;
+}
+.testing {
+  background-color: #ffff;
 }
 
 .beranda .div {
