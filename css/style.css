@@ -3,13 +3,53 @@
  
 }*/
 
+.map {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Atur lebar maksimum peta */
+  margin: auto;
+  border: 1px solid #ccc; /* Border untuk peta */
+}
+.google-maps-widget {
+  position: relative;
+}
+iframe {
+  width: 100%;
+  height: 450px; /* Tinggi peta */
+  border: 0;
+}
+.zoom-controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #0056b3;
+}
+
 .beranda {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  max-width: 1440px;
+  max-width: 100%;
 }
 .testing {
   background-color: #ffff;
@@ -32,8 +72,7 @@
 
 .beranda .footer {
   position: absolute;
-  justify-content: center;
-  width: 1440px;
+  width: 100%;
   height: 427px;
   top: 1706px;
   left: 0;
@@ -42,7 +81,7 @@
 
 .beranda .group-2 {
   position: absolute;
-  width: 278px;
+  width: 100%;
   height: 110px;
   top: 70px;
   left: 197px;
@@ -50,7 +89,7 @@
 
 .beranda .RSUD-PJS {
   position: absolute;
-  width: 167px;
+  width: 100%;
   height: 26px;
   top: 7px;
   left: 2px;
@@ -58,7 +97,7 @@
 
 .beranda .memimpin-dalam {
   position: absolute;
-  width: 274px;
+  width: 100%;
   top: 60px;
   left: 0;
   font-family: var(--body-2-font-family);
@@ -72,7 +111,7 @@
 
 .beranda .group-3 {
   position: absolute;
-  width: 172px;
+  width: 100%;
   height: 198px;
   top: 70px;
   left: 724px;
@@ -80,7 +119,7 @@
 
 .beranda .text-wrapper {
   position: absolute;
-  width: 128px;
+  width: 100%;
   top: 0;
   left: 0;
   font-family: "Work Sans", Helvetica;
@@ -93,7 +132,7 @@
 
 .beranda .group-4 {
   position: absolute;
-  width: 180px;
+  width: 100%;
   height: 138px;
   top: 60px;
   left: 0;
@@ -101,7 +140,7 @@
 
 .beranda .text-wrapper-2 {
   position: absolute;
-  width: 56px;
+  width: 100%;
   top: 0;
   left: 0;
   font-family: var(--body-font-family);
@@ -115,7 +154,7 @@
 
 .beranda .text-wrapper-3 {
   position: absolute;
-  width: 149px;
+  width: 100%;
   top: 29px;
   left: 0;
   font-family: var(--body-font-family);
@@ -129,7 +168,7 @@
 
 .beranda .text-wrapper-4 {
   position: absolute;
-  width: 153px;
+  width: 100%;
   top: 58px;
   left: 0;
   font-family: var(--body-font-family);
@@ -143,7 +182,7 @@
 
 .beranda .text-wrapper-5 {
   position: absolute;
-  width: 170px;
+  width: 100%;
   top: 87px;
   left: 0;
   font-family: var(--body-font-family);
@@ -157,7 +196,7 @@
 
 .beranda .text-wrapper-6 {
   position: absolute;
-  width: 147px;
+  width: 100%;
   top: 116px;
   left: 0;
   font-family: var(--body-font-family);
@@ -171,7 +210,7 @@
 
 .beranda .group-5 {
   position: absolute;
-  width: 287px;
+  width: 100%;
   height: 211px;
   top: 68px;
   left: 958px;
@@ -179,7 +218,7 @@
 
 .beranda .text-wrapper-7 {
   position: absolute;
-  width: 130px;
+  width: 100%;
   top: 0;
   left: 0;
   font-family: "Work Sans", Helvetica;
@@ -192,7 +231,7 @@
 
 .beranda .group-6 {
   position: absolute;
-  width: 293px;
+  width: 100%;
   height: 151px;
   top: 60px;
   left: 0;
@@ -200,7 +239,7 @@
 
 .beranda .text-wrapper-8 {
   position: absolute;
-  width: 249px;
+  width: 100%;
   top: 0;
   left: 0;
   font-family: var(--body-font-family);
@@ -214,7 +253,7 @@
 
 .beranda .p {
   position: absolute;
-  width: 230px;
+  width: 100%;
   top: 129px;
   left: 0;
   font-family: var(--body-font-family);
@@ -227,7 +266,7 @@
 }
 
 .beranda .text-wrapper-9 {
-  width: 285px;
+  width: 100%;
   top: 29px;
   left: 0;
   font-weight: var(--body-font-weight);
@@ -242,7 +281,7 @@
 
 .beranda .jalan-jl-h-hasan {
   position: absolute;
-  width: 284px;
+  width: 100%;
   top: 58px;
   left: 0;
   font-family: var(--body-font-family);
@@ -256,7 +295,7 @@
 
 .beranda .vector {
   position: absolute;
-  width: 1046px;
+  width: 100%;
   height: 1px;
   top: 316px;
   left: 197px;
@@ -281,7 +320,7 @@
 
 .beranda .vector-3 {
   position: absolute;
-  width: 25px;
+  width: 100%;
   height: 24px;
   top: 361px;
   left: 1218px;
@@ -289,7 +328,7 @@
 
 .beranda .text-wrapper-10 {
   position: absolute;
-  width: 585px;
+  width: 100%;
   top: 362px;
   left: 197px;
   font-family: "Work Sans", Helvetica;
@@ -303,7 +342,7 @@
 .beranda .map {
   position: absolute;
   width: 1154px;
-  height: 577px;
+  height: 450px;
   top: 1078px;
   left: 275px;
 }
@@ -1217,11 +1256,12 @@
 
 .beranda .topmost {
   position: fixed;
-  width: 1440px;
+  width: 100%;
   height: 80px;
   top: 0;
   left: 0;
   background-color: var(--white);
+  
 }
 
 .beranda .group-23 {

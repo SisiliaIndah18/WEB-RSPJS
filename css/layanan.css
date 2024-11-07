@@ -1146,7 +1146,7 @@
   
   .layanan .topmost {
     position: fixed;
-    width: 1440px;
+    width: 100%;
     height: 80px;
     top: 0;
     left: 0;
