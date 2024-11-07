@@ -89,7 +89,7 @@ iframe {
 
 .beranda .RSUD-PJS {
   position: absolute;
-  width: 100%;
+  width: 167px;
   height: 26px;
   top: 7px;
   left: 2px;
@@ -295,7 +295,7 @@ iframe {
 
 .beranda .vector {
   position: absolute;
-  width: 100%;
+  width: 1046px;
   height: 1px;
   top: 316px;
   left: 197px;
@@ -320,7 +320,7 @@ iframe {
 
 .beranda .vector-3 {
   position: absolute;
-  width: 100%;
+  width: 25px;
   height: 24px;
   top: 361px;
   left: 1218px;
@@ -350,7 +350,7 @@ iframe {
 .beranda .google-maps-widget {
   position: relative;
   height: 577px;
-  background-image: url(./img/map-image.png);
+  background-image: url(../img/map-image.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -400,7 +400,7 @@ iframe {
   border-radius: var(--corner-radius-radius-s);
   border: 1px solid;
   border-color: #ffffff;
-  background-image: url(./img/image.png);
+  background-image: url(../img/image.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -679,7 +679,7 @@ iframe {
   height: 441px;
   top: 0;
   left: 130px;
-  background-image: url(./img/rectangle-53.png);
+  background-image: url(../img/rectangle-53.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -796,7 +796,7 @@ iframe {
   height: 250px;
   top: 1086px;
   left: 380px;
-  background-image: url(./img/blackdoctors-1.png);
+  background-image: url(../img/blackdoctors-1.png);
   background-size: 100% 100%;
 }
 
@@ -939,7 +939,7 @@ iframe {
   height: 550px;
   top: 0;
   left: 0;
-  background-image: url(./img/physician-trends-2021-merritt-hawkins-1.png);
+  background-image: url(../img/physician-trends-2021-merritt-hawkins-1.png);
   background-size: 100% 100%;
 }
 
