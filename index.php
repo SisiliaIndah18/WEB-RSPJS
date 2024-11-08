@@ -13,7 +13,7 @@
     <div class="beranda">
       <!-- <div class="div"> -->
         <div class="group">
-        
+        <?php include 'layout/footer.php'; ?>
         <!-- map -->
           <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3939729788804!2d116.2120129746072!3d-3.2518751967231587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2def31cb90666227%3A0xd57a06ea9aaf35a5!2sRSUD%20Pangeran%20Jaya%20Sumitra!5e0!3m2!1sid!2sid!4v1730428584830!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
