@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head> -->
-  <?php include 'layout/header.php'; ?>
+  
   <body>
     <div class="beranda">
       <!-- <div class="div"> -->
         <div class="group">
-        <?php include 'layout/navbar.php'; ?>
+        
         <!-- map -->
           <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3939729788804!2d116.2120129746072!3d-3.2518751967231587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2def31cb90666227%3A0xd57a06ea9aaf35a5!2sRSUD%20Pangeran%20Jaya%20Sumitra!5e0!3m2!1sid!2sid!4v1730428584830!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -211,11 +211,14 @@
               </div>
             </div>
           </div>
+          <?php include 'layout/header.php'; ?>
         </section>
+        <?php include 'layout/navbar.php'; ?>       
       </div>
     </div>
 
   </body>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
   crossorigin="anonymous"></script>

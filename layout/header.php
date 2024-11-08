@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="beranda">
-      <div class="div">
+      <!-- <div class="div"> -->
         <div class="topmost">
           <div class="group-23">
             <div class="group-24">
@@ -34,7 +34,7 @@
             <img class="IMG" src="img/img-6191-1.png" />
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
