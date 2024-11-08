@@ -1,17 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../css/globals.css" />
-    <link rel="stylesheet" href="../css/styleguide.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  </head>
+
   <body>
     <div class="beranda">
       <div class="div">
-        <div class="group">
+        <div class="group"> -->
           <div class="navbar">
             <div class="navbar-2">
               <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: (31, 43, 108, 1);">
@@ -66,8 +59,8 @@
               </nav>
             </div>
         </div>
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
