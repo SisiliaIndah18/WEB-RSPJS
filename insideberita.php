@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/globals.css" />
-    <link rel="stylesheet" href="../css/styleguideinsideberita.html.css" />
-    <link rel="stylesheet" href="../css/insideberita.css" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguideinsideberita.html.css" />
+    <link rel="stylesheet" href="css/insideberita.css" />
   </head>
   <body>
     <div class="berita">
@@ -120,12 +120,12 @@
           <img class="rectangle-4" src="img/rectangle-13.png" />
           <div class="group-6">
             <div class="button-with-icon">
-              <div class="read-more">Selanjutnya</div>
-              <img class="vector" src="img/vector.svg" />
+              <a class="read-more" href="#" role="button">Selanjutnya</a>
+              <img class="vector" src="img/vector-444.svg" />
             </div>
             <div class="button-with-icon-2">
-              <img class="vector-2" src="img/vector-1.svg" />
-              <div class="read-more">Sebelumnya</div>
+              <img class="vector-2" src="img/vector-555.svg" />
+              <a class="read-more" href="#" role="button">Sebelumnya</a>
             </div>
           </div>
         </div>

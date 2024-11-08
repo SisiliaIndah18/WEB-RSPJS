@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/globals.css" />
-    <link rel="stylesheet" href="../css/styleguidelayanan.css" />
-    <link rel="stylesheet" href="../css/layanan.css" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguidelayanan.css" />
+    <link rel="stylesheet" href="css/layanan.css" />
   </head>
   <body>
     <div class="layanan">

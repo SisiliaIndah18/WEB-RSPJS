@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/globals.css" />
-    <link rel="stylesheet" href="../css/styleguidefasilitas.css" />
-    <link rel="stylesheet" href="../css/fasilitas.css" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguidefasilitas.css" />
+    <link rel="stylesheet" href="css/fasilitas.css" />
   </head>
   <body>
     <div class="fasilitas">
