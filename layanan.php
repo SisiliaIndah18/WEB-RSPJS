@@ -128,7 +128,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
           </div>
           <div class="overlap-4">
@@ -147,7 +147,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
           </div>
           <div class="overlap-5">
@@ -164,7 +164,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
           </div>
           <div class="overlap-5">
@@ -181,7 +181,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
           </div>
           <div class="overlap-5">
@@ -198,7 +198,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button-3">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-10.svg" />
           </div>
           <div class="overlap-5">
@@ -215,7 +215,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button-3">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-10.svg" />
           </div>
           <div class="overlap-5">
@@ -232,7 +232,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-14.svg" />
           </div>
           <div class="overlap-5">
@@ -249,7 +249,7 @@
             Velit nascetur massa in.
           </p>
           <div class="link-button">
-            <div class="link-button-2">Pelajari Lebih Lanjut</div>
+            <a class="link-button-2" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-14.svg" />
           </div>
           <div class="overlap-5">
