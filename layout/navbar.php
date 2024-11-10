@@ -1,6 +1,5 @@
 <!-- <!DOCTYPE html>
 <html>
-
   <body>
     <div class="beranda">
       <div class="div">
@@ -62,7 +61,5 @@
       <!-- </div>
     </div> -->
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-QB6ZQq6NqGh9FTjVAJkB6NXOGmOS5VNafF9Vj/GNGa+vG2FwTfcb46f7AMzJ3Kzg" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cmRBT6Az3f5a2PN9p6IhbCpGiQipFPz5FQOaOUzgpeQ94Cdm3Bx+NC6P+YLTsZHB" crossorigin="anonymous"></script>
-
 </html>
