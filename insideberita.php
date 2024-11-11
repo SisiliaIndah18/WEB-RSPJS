@@ -54,8 +54,8 @@
             </div>
           </div>
           <div class="news-search-input-inberita">
-            <div class="search-inberita">Cari</div>
-            <img class="group-4-inberita" src="img/group-175.png" />
+            <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Cari</button>
           </div>
           <div class="side-categories-inberita">
             <div class="overlap-inberita">

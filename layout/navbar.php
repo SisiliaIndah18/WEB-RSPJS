@@ -49,8 +49,8 @@
                                 <a class="nav-link" href="#footer">Kontak</a>
                             </li>
                             <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-primary" type="submit">Search</button>
+                                <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                                <button class="btn btn-outline-primary" type="submit">Cari</button>
                             </form>
                         </ul>
                     </div>
