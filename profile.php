@@ -35,7 +35,6 @@
           <div class="overlap-group-2-profile">
             <div class="rectangle-4-profile"></div>
             <div class="group-4-profile">
-              <img class="vector" src="img/vector.svg" />
               <p class="text-wrapper-4-profile">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare
                 ornare. Quisque placerat scelerisque felis vitae tortor augue. Velit nascetur Consequat faucibus
@@ -110,10 +109,10 @@
                 <div class="overlap-4-profile">
                   <div class="menjalankan-tata-wrapper-profile">
                     <p class="menjalankan-tata-profile">
-                      Menjalankan Tata Kelola rumah sakit yang terakreditasi dengan dukungan sumber <br> daya manusia yang
-                      profesional. Mengembangkan RSUD Kotabaru Menjadi rumah <br> sakit rujukan regional dan rumah sakit
-                      pendidikan.Memenuhi Kebutuhan Pelanggan <br> dengan menyediakan layanan keperawatan yang
-                      berkualitas. Menyediakan sarana <br> dan prasarana penunjang pelayanan.
+                      Menjalankan Tata Kelola rumah sakit yang terakreditasi dengan dukungan sumber daya manusia <br> yang
+                      profesional. Mengembangkan RSUD Kotabaru Menjadi rumah sakit rujukan <br> regional dan rumah sakit
+                      pendidikan.Memenuhi Kebutuhan Pelanggan dengan menyediakan <br> layanan keperawatan yang
+                      berkualitas. Menyediakan sarana dan prasarana penunjang pelayanan.
                     </p>
                   </div>
                   <div class="text-wrapper-25-profile">Misi</div>

@@ -50,4 +50,10 @@
   --display-1-letter-spacing: 0px;
   --display-1-line-height: normal;
   --display-1-font-style: normal;
+  --title-font-family: "Work Sans", Helvetica;
+  --title-font-weight: 500;
+  --title-font-size: 20px;
+  --title-letter-spacing: 0px;
+  --title-line-height: normal;
+  --title-font-style: normal;
 }
