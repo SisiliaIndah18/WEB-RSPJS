@@ -203,7 +203,7 @@
           </div>
           <?php include 'layout/header.php'; ?>
         </section>
-        <?php include 'layout/navbar.php'; ?>       
+        <?php //include 'layout/navbar.php'; ?>       
       </div>
     </div>
   </body>
