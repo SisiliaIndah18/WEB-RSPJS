@@ -5,6 +5,90 @@
     <link rel="stylesheet" href="../css/globals.css" />
     <link rel="stylesheet" href="../css/styleguidelayanan.css" />
     <link rel="stylesheet" href="../css/layanan.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Pilihan Rawat Inap</title>
+    <style>
+      /* Styling dasar */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .group-3 {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+      }
+
+      /* Button group styling - diperbesar */
+      .button-group {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+      }
+
+      .button-group button {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 20px;
+        font-size: 18px; /* Ukuran font diperbesar */
+        font-weight: bold;
+        border: none;
+        border-radius: 8px; /* Tambahkan sedikit rounding pada tombol */
+        cursor: pointer;
+        background-color: #84cfec;
+        color: white;
+        transition: background-color 0.3s, transform 0.2s; /* Tambahkan animasi untuk hover */
+      }
+
+      .button-group button:hover {
+        background-color: #555;
+        transform: scale(1.05); /* Efek pembesaran saat hover */
+      }
+
+      /* Warna aktif menjadi biru 4863A0 */
+      .button-group button.active {
+        background-color: #4863A0;
+      }
+
+      .group-4 {
+        max-width: 600px;
+      }
+
+      .text-wrapper-3 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .group-5, .group-6, .group-7, .group-8, .group-9 {
+        margin: 10px 0;
+      }
+
+      .rectangle-4 {
+        width: 50px;
+        height: 5px;
+        background-color: #333;
+        margin-top: 5px;
+      }
+
+      .p, .text-wrapper-7 {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #555;
+      }
+
+      /* Konten yang disembunyikan */
+      .hidden {
+        display: none;
+      }
+   </style>
   </head>
   <body>
     <div class="layanan">
@@ -124,13 +208,15 @@
         <div class="service-card">
           <div class="text-wrapper-6">Instalasi Rawat Jalan</div>
           <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
-            Velit nascetur massa in.
+            Poliklinik memberikan pelayanan setiap hari kerja yaitu hari Senin sampai dengan Jumat mulai pukul 08.00-11.00, 
+            dengan ruang tunggu pasien yang di fasilitasi memadai.
           </p>
+           <!-- 
           <div class="link-button">
             <div class="link-button-2">Pelajari Lebih Lanjut</div>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
           </div>
+          -->
           <div class="overlap-4">
             <div class="group-5">
               <div class="overlap-group-3">
@@ -143,13 +229,15 @@
         <div class="service-card-2">
           <div class="text-wrapper-6">Instalasi Rawat Inap</div>
           <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
-            Velit nascetur massa in.
+            Ruang Rawat Inap RSUD Kotabaru dilengkapi dengan tempat tidur yang terbagi atas Ruang Perawatan 
+            Penyakit Dalam, Ruang Perawatan Anak, Ruang Perawatan Persalinan, Ruang Perawatan Bedah, dan Ruang Rawat Intensif.
           </p>
+           <!-- 
           <div class="link-button">
             <div class="link-button-2">Pelajari Lebih Lanjut</div>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
           </div>
+          -->
           <div class="overlap-5">
             <img class="rectangle-6" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-14@2x.png" />
             <div class="vector-wrapper">
@@ -160,13 +248,15 @@
         <div class="service-card-3">
           <div class="text-wrapper-6">Instalasi Gawat Darurat</div>
           <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
-            Velit nascetur massa in.
+            IGD atau Instalasi Gawat Darurat RSUD PJS menyediakan layanan 24 jam bagi pasien yang membutuhkan penanganan segera. 
+            Layanan ini dirancang untuk memberikan perawatan darurat yang cepat dan tepat kepada pasien yang harus segera dibawa ke rumah sakit.
           </p>
+          <!--
           <div class="link-button">
             <div class="link-button-2">Pelajari Lebih Lanjut</div>
             <img class="vector" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
           </div>
+          -->
           <div class="overlap-5">
             <img class="rectangle-6" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-14@2x.png" />
             <div class="vector-wrapper">
