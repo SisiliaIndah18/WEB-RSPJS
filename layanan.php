@@ -289,9 +289,37 @@
         <img class="rectangle-8-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-13.png" />
       </div>
       <!-- end layanan penunjang medis -->
+      <footer class="footer-layanan">
+        <div class="group-2-layanan">
+          <img class="RSUD-PJS-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rsud-pjs.svg" />
+          <p class="memimpin-dalam-layanan">Memimpin dalam Keunggulan<br />Medis, Perawatan Terpercaya</p>
+        </div>
+        <div class="group-22-layanan">
+          <div class="text-wrapper-18-layanan">Tentang Kami</div>
+          <div class="group-23-layanan">
+            <div class="text-wrapper-19-layanan">Dokter</div>
+            <div class="text-wrapper-20-layanan">Indikator Mutu RS</div>
+            <div class="text-wrapper-21-layanan">Standar Pelayanan</div>
+            <div class="text-wrapper-22-layanan">Maklumat Pelayanan</div>
+            <div class="text-wrapper-23-layanan">Jadwal Pelayanan</div>
+          </div>
+        </div>
+        <div class="group-24-layanan">
+          <div class="text-wrapper-24-layanan">Hubungi Kami</div>
+          <div class="group-25-layanan">
+            <div class="text-wrapper-25-layanan">Call Center: 082259776756</div>
+            <p class="text-wrapper-26-layanan">Gawat Darurat : (0518) 21118</p>
+            <div class="text-wrapper-27-layanan">Email:  rsud.kotabaru@yahoo.co.id</div>
+            <p class="alamat-jl-h-hasan-layanan">
+              Alamat: Jl. H Hasan Basri No. 57, <br />Kabupaten Kota Baru, <br />Kalimantan Selatan 72113
+            </p>
+          </div>
+        </div>
+        <img class="vector-3-layanan" src="img/vector-1.svg" />
+        <img class="vector-6-layanan" src="img/vector-3.svg" />
+        <p class="text-wrapper-28-layanan">© 2024 RSUD Pangeran Jaya Sumitra All Rights Reserved by IT Support</p>
+      </footer>
       <?php include 'layout/header.php'; ?>
-      <?php include 'layout/footer.php'; ?>
-      <?php //include 'layout/navbar.php'; ?>
     </div>
   </body>
 </html>

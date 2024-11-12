@@ -97,6 +97,36 @@
         <div class="text-wrapper-14-fasilitas">Fasilitas Rawat Inap</div>
         <div class="text-wrapper-15-fasilitas">RSUD PJS</div>
       </div>
+      <footer class="footer-fasilitas">
+        <div class="group-19-fasilitas">
+          <img class="RSUD-PJS-fasilitas" src="img/rsud-pjs.svg" />
+          <p class="memimpin-dalam-fasilitas">Memimpin dalam Keunggulan<br />Medis, Perawatan Terpercaya</p>
+        </div>
+        <div class="group-20-fasilitas">
+          <div class="text-wrapper-16-fasilitas">Tentang Kami</div>
+          <div class="group-21-fasilitas">
+            <div class="text-wrapper-17-fasilitas">Dokter</div>
+            <div class="text-wrapper-18-fasilitas">Indikator Mutu RS</div>
+            <div class="text-wrapper-19-fasilitas">Standar Pelayanan</div>
+            <div class="text-wrapper-20-fasilitas">Maklumat Pelayanan</div>
+            <div class="text-wrapper-21-fasilitas">Jadwal Pelayanan</div>
+          </div>
+        </div>
+        <div class="group-22-fasilitas">
+          <div class="text-wrapper-22-fasilitas">Hubungi Kami</div>
+          <div class="group-23-fasilitas">
+            <div class="text-wrapper-23-fasilitas">Call Center: 082259776756</div>
+            <p class="text-wrapper-24-fasilitas">Gawat Darurat : (0518) 21118</p>
+            <div class="text-wrapper-25-fasilitas">Email:  rsud.kotabaru@yahoo.co.id</div>
+            <p class="alamat-jl-h-hasan-fasilitas">
+              Alamat: Jl. H Hasan Basri No. 57, <br />Kabupaten Kota Baru, <br />Kalimantan Selatan 72113
+            </p>
+          </div>
+        </div>
+        <img class="vector-5-fasilitas" src="img/vector-1.svg" />
+        <img class="vector-8-fasilitas" src="img/vector-3.svg" />
+        <p class="text-wrapper-26-fasilitas">© 2024 RSUD Pangeran Jaya Sumitra All Rights Reserved by IT Support</p>
+      </footer>
       <?php include 'layout/header.php'; ?>
     </div>
   </body>
