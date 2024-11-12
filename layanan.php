@@ -1,6 +1,7 @@
 <html>
   <body>
     <div class="layanan">
+      <!-- card doctors -->
       <div class="group-layanan">
         <div class="doctors-card-layanan">
           <img class="rectangle-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-7@2x.png" />
@@ -90,6 +91,8 @@
           <div class="text-wrapper-3-layanan">RSUD PJS</div>
         </div>
       </div>
+      <!-- end card doctors -->
+       <!-- sub head -->
       <div class="sub-head-layanan">
         <div class="overlap-2-layanan">
           <div class="div-wrapper-layanan">
@@ -117,6 +120,8 @@
           </div>
         </div>
       </div>
+      <!-- end sub head -->
+       <!-- layanan medis -->
       <div class="group-4-layanan">
         <div class="service-card-layanan">
           <div class="text-wrapper-6-layanan">Instalasi Rawat Jalan</div>
@@ -124,10 +129,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
-          </div>
           <div class="overlap-4-layanan">
             <div class="group-5-layanan">
               <div class="overlap-group-3-layanan">
@@ -143,10 +144,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
-          </div>
           <div class="overlap-5-layanan">
             <img class="rectangle-6-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-14@2x.png" />
             <div class="vector-wrapper-layanan">
@@ -160,10 +157,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
-          </div>
           <div class="overlap-5-layanan">
             <img class="rectangle-6-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-14@2x.png" />
             <div class="vector-wrapper-layanan">
@@ -177,10 +170,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-6.svg" />
-          </div>
           <div class="overlap-5-layanan">
             <img class="rectangle-6-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-14@2x.png" />
             <div class="vector-wrapper-layanan">
@@ -194,10 +183,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-3-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-10.svg" />
-          </div>
           <div class="overlap-5-layanan">
             <img class="rectangle-6-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-14@2x.png" />
             <div class="vector-wrapper-layanan">
@@ -211,10 +196,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-3-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-10.svg" />
-          </div>
           <div class="overlap-5-layanan">
             <img class="rectangle-6-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-14@2x.png" />
             <div class="vector-wrapper-layanan">
@@ -228,10 +209,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-14.svg" />
-          </div>
           <div class="overlap-5-layanan">
             <img class="rectangle-6-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-16@2x.png" />
             <div class="vector-wrapper-layanan">
@@ -245,10 +222,6 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing Quisque placerat Convallis felis vitae tortor augue.
             Velit nascetur massa in.
           </p>
-          <div class="link-button-layanan">
-            <a class="link-button-2-layanan" href="layanan.html" role="button">Pelajari Lebih Lanjut</a>
-            <img class="vector-layanan" src="https://c.animaapp.com/wIWVTAd9/img/vector-14.svg" />
-          </div>
           <div class="overlap-5-layanan">
             <img class="rectangle-6-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-20-16@2x.png" />
             <div class="vector-wrapper-layanan">
@@ -257,6 +230,8 @@
           </div>
         </div>
       </div>
+      <!-- end layanan medis -->
+       <!-- layanan penunjang medis -->
       <div class="group-6-layanan">
         <div class="text-wrapper-7-layanan">Layanan Penunjang Medis</div>
         <div class="text-wrapper-8-layanan">RSUD PJS</div>
@@ -313,7 +288,10 @@
         </div>
         <img class="rectangle-8-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rectangle-13.png" />
       </div>
+      <!-- end layanan penunjang medis -->
       <?php include 'layout/header.php'; ?>
+      <?php include 'layout/footer.php'; ?>
+      <?php //include 'layout/navbar.php'; ?>
     </div>
   </body>
 </html>

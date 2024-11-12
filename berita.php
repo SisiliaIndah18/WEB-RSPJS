@@ -135,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="news-search-input-berita">
+          <!-- <div class="news-search-input-berita">
             <div class="search-berita">Cari</div>
             <img class="group-12-berita" src="img/group-175.png" />
           </div>
@@ -147,7 +147,7 @@
                 <div class="overlap-group-2-berita">
                   <div class="rectangle-5-berita"></div>
                   <div class="frame-berita"><div class="text-wrapper-6-berita">3</div></div>
-                  <div class="berita-umum">Berita Umum</div>
+                  <div class="berita-umum-berita">Berita Umum</div>
                 </div>
               </div>
               <div class="overlap-wrapper-berita">
@@ -169,6 +169,45 @@
                   <div class="rectangle-5-berita"></div>
                   <div class="element-wrapper-berita"><div class="text-wrapper-6-berita">10</div></div>
                   <div class="rumah-sakit-berita">Rumah Sakit</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="news-search-input-inberita">
+            <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Cari</button>
+          </div>
+          <div class="side-categories-inberita">
+            <div class="overlap-inberita">
+              <div class="rectangle-2-inberita"></div>
+              <div class="text-wrapper-inberita">Kategori</div>
+              <div class="category-inberita">
+                <div class="overlap-group-2-inberita">
+                  <div class="rectangle-3-inberita"></div>
+                  <div class="frame-inberita"><div class="text-wrapper-3-inberita">3</div></div>
+                  <div class="berita-inberita">Berita Umum</div>
+                </div>
+              </div>
+              <div class="overlap-wrapper-inberita">
+                <div class="overlap-group-2-inberita">
+                  <div class="rectangle-3-inberita"></div>
+                  <div class="frame-inberita"><div class="text-wrapper-3-inberita">5</div></div>
+                  <div class="hari-inberita">Hari Nasional</div>
+                </div>
+              </div>
+              <div class="overlap-group-wrapper-inberita">
+                <div class="overlap-group-2-inberita">
+                  <div class="rectangle-3-inberita"></div>
+                  <div class="frame-inberita"><div class="text-wrapper-3-inberita">8</div></div>
+                  <div class="pelayanan-inberita">Pelayanan</div>
+                </div>
+              </div>
+              <div class="div-wrapper-inberita">
+                <div class="overlap-group-2-inberita">
+                  <div class="rectangle-3-inberita"></div>
+                  <div class="element-wrapper-inberita"><div class="text-wrapper-3-inberita">10</div></div>
+                  <div class="rumah-sakit-inberita">Rumah Sakit</div>
                 </div>
               </div>
             </div>
