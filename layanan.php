@@ -290,7 +290,7 @@
       </div>
       <!-- end layanan penunjang medis -->
       <footer class="footer-layanan">
-        <div class="group-2-layanan">
+        <div class="group-222-layanan">
           <img class="RSUD-PJS-layanan" src="https://c.animaapp.com/wIWVTAd9/img/rsud-pjs.svg" />
           <p class="memimpin-dalam-layanan">Memimpin dalam Keunggulan<br />Medis, Perawatan Terpercaya</p>
         </div>

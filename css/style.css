@@ -2374,6 +2374,14 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   overflow: hidden;
 }
 
+.layanan .group-6-layanan {
+  position: absolute;
+  width: 445px;
+  height: 78px;
+  top: 3979px;
+  left: 500px;
+}
+
 .layanan .footer-layanan {
   position: absolute;
   width: 1440px;
@@ -2383,7 +2391,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   background-color: var(--primary);
 }
 
-.layanan .group-2-layanan {
+.layanan .group-222-layanan {
   position: absolute;
   width: 278px;
   height: 110px;
