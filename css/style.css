@@ -1,7 +1,25 @@
-/* Responsive adjustments TESTTTTTT
-@media (max-width: 1320px) {
- 
-}*/
+@media (min-width: 768px) {
+  .element {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .element {
+    width: 100%;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1; /* Membuat konten utama fleksibel */
+}
 
 .map {
   position: relative;
@@ -71,35 +89,63 @@ iframe {
 }
 
 .beranda .footer {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   height: 427px;
   top: 1706px;
   left: 0;
-  background-color: var(--primary);
+  background-color: var(--primary);*/
+
+  background-color: rgba(31, 43, 108, 1);
+  color: white;
+  padding: 2rem;
+  text-align: left;
+  width: 100%;
+  margin-top: auto; /* Memastikan footer berada di bawah konten */
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: 1fr; /* Default satu kolom */
+  gap: 20px;
+}
+
+/* Ubah menjadi tiga kolom pada layar yang lebih lebar */
+@media (min-width: 768px) {
+  .footer .container {
+      grid-template-columns: repeat(3, 1fr); /* Tiga kolom pada layar medium ke atas */
+  }
 }
 
 .beranda .group-2 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   height: 110px;
   top: 70px;
-  left: 197px;
+  left: 197px;*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .beranda .RSUD-PJS {
-  position: absolute;
+  /*position: absolute;
   width: 167px;
   height: 26px;
   top: 7px;
-  left: 2px;
+  left: 2px;*/
+
+  max-width: 100%;
+  height: auto;
 }
 
 .beranda .memimpin-dalam {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 60px;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-2-font-family);
   font-weight: var(--body-2-font-weight);
   color: var(--white);
@@ -110,18 +156,23 @@ iframe {
 }
 
 .beranda .group-3 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   height: 198px;
   top: 70px;
-  left: 724px;
+  left: 724px;*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .beranda .text-wrapper {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 0;
-  left: 0;
+  left: 0;*/
   font-family: "Work Sans", Helvetica;
   font-weight: 600;
   color: var(--white);
@@ -131,18 +182,18 @@ iframe {
 }
 
 .beranda .group-4 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   height: 138px;
   top: 60px;
-  left: 0;
+  left: 0;*/
 }
 
 .beranda .text-wrapper-2 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 0;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -153,10 +204,10 @@ iframe {
 }
 
 .beranda .text-wrapper-3 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 29px;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -167,10 +218,10 @@ iframe {
 }
 
 .beranda .text-wrapper-4 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 58px;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -181,10 +232,10 @@ iframe {
 }
 
 .beranda .text-wrapper-5 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 87px;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -195,10 +246,10 @@ iframe {
 }
 
 .beranda .text-wrapper-6 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 116px;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -209,18 +260,23 @@ iframe {
 }
 
 .beranda .group-5 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   height: 211px;
   top: 68px;
-  left: 958px;
+  left: 958px;*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .beranda .text-wrapper-7 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 0;
-  left: 0;
+  left: 0;*/
   font-family: "Work Sans", Helvetica;
   font-weight: 600;
   color: var(--white);
@@ -230,18 +286,18 @@ iframe {
 }
 
 .beranda .group-6 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   height: 151px;
   top: 60px;
-  left: 0;
+  left: 0;*/
 }
 
 .beranda .text-wrapper-8 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 0;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -252,10 +308,10 @@ iframe {
 }
 
 .beranda .p {
-  position: absolute;
+  //*position: absolute;
   width: 100%;
   top: 129px;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -266,13 +322,13 @@ iframe {
 }
 
 .beranda .text-wrapper-9 {
-  width: 100%;
+  /*width: 100%;
   top: 29px;
-  left: 0;
+  left: 0;*/
   font-weight: var(--body-font-weight);
   color: var(--white);
   line-height: var(--body-line-height);
-  position: absolute;
+  /*position: absolute;*/
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   letter-spacing: var(--body-letter-spacing);
@@ -280,10 +336,10 @@ iframe {
 }
 
 .beranda .jalan-jl-h-hasan {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 58px;
-  left: 0;
+  left: 0;*/
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   color: var(--white);
@@ -294,12 +350,16 @@ iframe {
 }
 
 .beranda .vector {
-  position: absolute;
+  /*position: absolute;
   width: 1046px;
   height: 1px;
   top: 316px;
   left: 197px;
-  object-fit: cover;
+  object-fit: cover;*/
+
+  display: block;
+  margin: 20px auto;
+  max-width: 50px; /* Menyesuaikan ukuran ikon di footer */
 }
 
 .beranda .img {
@@ -319,15 +379,18 @@ iframe {
 }
 
 .beranda .vector-3 {
-  position: absolute;
+ /* position: absolute;
   width: 25px;
   height: 24px;
   top: 361px;
-  left: 1218px;
+  left: 1218px;*/
+  display: block;
+  margin: 20px auto;
+  max-width: 50px; /* Menyesuaikan ukuran ikon di footer */
 }
 
 .beranda .text-wrapper-10 {
-  position: absolute;
+  /*position: absolute;
   width: 100%;
   top: 362px;
   left: 197px;
@@ -336,7 +399,12 @@ iframe {
   color: var(--white);
   font-size: 16px;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: normal;*/
+
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 20px;
 }
 
 .beranda .map {
@@ -6009,6 +6077,3 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   white-space: nowrap;
   font-style: var(--body-2-font-style);
 }
-
-
-
