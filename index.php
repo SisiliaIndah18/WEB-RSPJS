@@ -11,7 +11,7 @@
           </div>
         <!-- end map -->
          <!-- berita -->
-          <div class="news-section">
+          <!-- <div class="news-section">
             <div class="group-7">
               <div class="news">Berita</div>
               <p class="better-information">INFORMASI YANG LEBIH BAIK, KESEHATAN YANG LEBIH BAIK</p>
@@ -99,10 +99,10 @@
               <div class="rectangle-3"></div>
               <div class="rectangle-4"></div>
             </div>
-          </div>
+          </div> -->
           <!-- end berita -->
            <!-- kalimat -->
-          <div class="kutipan-kalimat">
+          <!-- <div class="kutipan-kalimat">
             <div class="overlap-group">
               <div class="rectangle-5"></div>
               <div class="group-15">
@@ -120,7 +120,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <!-- end kalimat -->
          <!-- jml bed -->
