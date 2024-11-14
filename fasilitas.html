@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/globals.css" />
+    <link rel="stylesheet" href="../css/styleguidefasilitas.css" />
+    <link rel="stylesheet" href="../css/fasilitas.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Pilihan Rawat Inap</title>
+  <style>
+    /* Styling dasar */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .group-3 {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    /* Button group styling - diperbesar */
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 15px;
+    }
+
+    .button-group button {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 15px 20px;
+      font-size: 18px; /* Ukuran font diperbesar */
+      font-weight: bold;
+      border: none;
+      border-radius: 8px; /* Tambahkan sedikit rounding pada tombol */
+      cursor: pointer;
+      background-color: #84cfec;
+      color: white;
+      transition: background-color 0.3s, transform 0.2s; /* Tambahkan animasi untuk hover */
+    }
+
+    .button-group button:hover {
+      background-color: #555;
+      transform: scale(1.05); /* Efek pembesaran saat hover */
+    }
+
+    /* Warna aktif menjadi biru 4863A0 */
+    .button-group button.active {
+      background-color: #4863A0;
+    }
+
+    .group-4 {
+      max-width: 600px;
+    }
+
+    .text-wrapper-3 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .group-5, .group-6, .group-7, .group-8, .group-9 {
+      margin: 10px 0;
+    }
+
+    .rectangle-4 {
+      width: 50px;
+      height: 5px;
+      background-color: #333;
+      margin-top: 5px;
+    }
+
+    .p, .text-wrapper-7 {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* Konten yang disembunyikan */
+    .hidden {
+      display: none;
+    }
+  </style>
+  </head>
+
+  <body>
+    <div class="fasilitas">
+      <div class="sub-head">
+        <div class="overlap">
+          <div class="group">
+            <div class="overlap-group">
+              <div class="frame">
+                <div class="ellipse"></div>
+                <div class="div"></div>
+              </div>
+              <div class="group-2">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+                <div class="rectangle-3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="overlap-wrapper">
+            <div class="overlap-2">
+              <div class="text-wrapper">Fasilitas</div>
+              <div class="text-wrapper-2">Beranda / Fasilitas</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group-3">
+        <div class="group-4">
+          <!-- Konten VIP -->
+          <div id="vip" class="content-section">
+            <div class="text-wrapper-3">VIP</div>
+            <div class="group-5">
+              <div class="group-wrapper">
+                <div class="group-6">
+                  <div class="text-wrapper-4">Laboratorium</div>
+                  <div class="rectangle-4"></div>
+                </div>
+              </div>
+              <div class="div-wrapper">
+                <div class="group-7">
+                  <div class="text-wrapper-5">Radiologi</div>
+                  <div class="rectangle-4"></div>
+                </div>
+              </div>
+              <div class="group-8">
+                <div class="group-9">
+                  <div class="text-wrapper-6">Farmasi</div>
+                  <div class="rectangle-4"></div>
+                </div>
+              </div>
+            </div>
+            <p class="p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare.
+            </p>
+            <p class="text-wrapper-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+    
+          <!-- Konten Kelas 1 -->
+          <div id="kelas1" class="content-section hidden">
+            <div class="text-wrapper-3">Kelas 1</div>
+            <p class="p">Konten untuk Kelas 1...</p>
+          </div>
+    
+          <!-- Konten Kelas 2 -->
+          <div id="kelas2" class="content-section hidden">
+            <div class="text-wrapper-3">Kelas 2</div>
+            <p class="p">Konten untuk Kelas 2...</p>
+          </div>
+
+          <!-- Konten Kelas 3 -->
+          <div id="kelas3" class="content-section hidden">
+            <div class="text-wrapper-3">Kelas 3</div>
+            <p class="p">Konten untuk Kelas 3...</p>
+          </div>
+        </div>
+    
+        <!-- Button Group di sebelah Gambar -->
+        <div>
+          <img class="rectangle-5" src="img/vip.jpg" alt="Rectangle Image" />
+          <div class="button-group">
+            <button class="active" onclick="showContent('vip')">
+              <i class="fas fa-star"></i> VIP
+            </button>
+            <button onclick="showContent('kelas1')">
+              <i class="fas fa-bed"></i> Kelas 1
+            </button>
+            <button onclick="showContent('kelas2')">
+              <i class="fas fa-bed"></i> Kelas 2
+            </button>
+            <button onclick="showContent('kelas3')">
+              <i class="fas fa-bed"></i> Kelas 3
+            </button>
+          </div>
+        </div>
+      </div>
+    
+      <script>
+        // Fungsi untuk menampilkan konten berdasarkan menu yang dipilih
+        function showContent(sectionId) {
+          // Menghapus kelas "active" dari semua tombol
+          const buttons = document.querySelectorAll('.button-group button');
+          buttons.forEach(button => button.classList.remove('active'));
+    
+          // Menambahkan kelas "active" pada tombol yang dipilih
+          document.querySelector(`.button-group button[onclick="showContent('${sectionId}')"]`).classList.add('active');
+    
+          // Menyembunyikan semua bagian konten dan menampilkan yang dipilih
+          const sections = document.querySelectorAll('.content-section');
+          sections.forEach(section => section.classList.add('hidden'));
+          document.getElementById(sectionId).classList.remove('hidden');
+        }
+      </script>
+      <div class="group-10">
+        <div class="group-11">
+          <div class="group-12">
+            <div class="text-wrapper-8">Fasilitas Publik</div>
+            <div class="text-wrapper-9">RSUD PJS</div>
+          </div>
+        </div>
+        <div class="overlap-group-wrapper">
+          <div class="overlap-group-2">
+            <div class="rectangle-6"></div>
+            <div class="group-13">
+              <img class="vector" src="img/vector.svg" />
+              <div class="text-wrapper-10">Parkir</div>
+            </div>
+            <div class="group-14">
+              <img class="vector-2" src="img/vector-1.svg" />
+              <div class="text-wrapper-11">Mushola</div>
+            </div>
+            <div class="group-15">
+              <div class="rectangle-7"></div>
+              <div class="rectangle-8"></div>
+              <div class="rectangle-9"></div>
+            </div>
+            <div class="group-16">
+              <img class="vector-3" src="img/vector-2.svg" />
+              <div class="text-wrapper-12">ATM</div>
+            </div>
+            <div class="group-17">
+              <img class="vector-4" src="img/vector-3.svg" />
+              <div class="text-wrapper-13">Kantin</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group-18">
+        <div class="text-wrapper-14">Fasilitas Rawat Inap</div>
+        <div class="text-wrapper-15">RSUD PJS</div>
+      </div>
+    </div>
+  </body>
+</html>

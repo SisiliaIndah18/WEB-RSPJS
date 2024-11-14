@@ -320,6 +320,11 @@
         <p class="text-wrapper-28-layanan">© 2024 RSUD Pangeran Jaya Sumitra All Rights Reserved by IT Support</p>
       </footer>
       <?php include 'layout/header.php'; ?>
+<<<<<<< HEAD
+=======
+      <?php //include 'layout/footer.php'; ?>
+      <?php //include 'layout/navbar.php'; ?>
+>>>>>>> 37f8a8b7a4e135d6c865dfeb75f326c217663ee9
     </div>
   </body>
 </html>

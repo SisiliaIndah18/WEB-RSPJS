@@ -1604,6 +1604,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .profile .footer-profile {
   width: 1440px;
   height: 427px;
@@ -1856,6 +1857,8 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   line-height: normal;
 }
 
+=======
+>>>>>>> 37f8a8b7a4e135d6c865dfeb75f326c217663ee9
 .profile .sub-head-profile {
   position: absolute;
   width: 1440px;
@@ -4057,13 +4060,13 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   font-style: var(--body-2-font-style);
 }
 
-.fasilitas .group-3-fasilitas {
+/*.fasilitas .group-3-fasilitas {
   position: absolute;
   width: 1137px;
   height: 649px;
   top: 638px;
   left: 168px;
-}
+} */
 
 .fasilitas .img-fasilitas {
   position: absolute;
@@ -4073,15 +4076,15 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   left: 0;
 }
 
-.fasilitas .group-4-fasilitas {
+/*.fasilitas .group-4-fasilitas {
   position: absolute;
   width: 844px;
   height: 234px;
   top: 415px;
   left: 299px;
-}
+}*/
 
-.fasilitas .text-wrapper-3-fasilitas {
+/*.fasilitas .text-wrapper-3-fasilitas {
   position: absolute;
   width: 654px;
   top: 0;
@@ -4093,31 +4096,31 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   letter-spacing: var(--display-2-letter-spacing);
   line-height: var(--display-2-line-height);
   font-style: var(--display-2-font-style);
-}
+}*/
 
-.fasilitas .group-5-fasilitas {
+/*.fasilitas .group-5-fasilitas {
   position: absolute;
   width: 757px;
   height: 29px;
   top: 205px;
   left: 0;
-}
+}*/
 
 .fasilitas .group-wrapper-fasilitas {
   position: absolute;
   width: 243px;
   height: 29px;
-  top: 0;
-  left: 0;
+  top: 180;
+  right: 250;
 }
 
-.fasilitas .group-6-fasilitas {
+/*.fasilitas .group-6-fasilitas {
   position: relative;
   width: 245px;
   height: 29px;
-}
+}*/
 
-.fasilitas .text-wrapper-4-fasilitas {
+/* .fasilitas .text-wrapper-4-fasilitas {
   position: absolute;
   width: 213px;
   top: 0;
@@ -4130,17 +4133,17 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   line-height: var(--body-2-line-height);
   white-space: nowrap;
   font-style: var(--body-2-font-style);
-}
+} */
 
 .fasilitas .rectangle-4-fasilitas {
   position: absolute;
-  width: 18px;
-  height: 18px;
-  top: 5px;
-  left: 0;
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 10px;
   background-color: var(--secondary);
   border-radius: 50px;
-}
+}*/
 
 .fasilitas .div-wrapper-fasilitas {
   position: absolute;
@@ -4152,15 +4155,17 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
 
 .fasilitas .group-7-fasilitas {
   position: relative;
-  width: 149px;
+  width: 213px;
   height: 29px;
-}
+  top: 180px;
+
+}*/
 
 .fasilitas .text-wrapper-5-fasilitas {
   position: absolute;
   width: 117px;
-  top: 0;
-  left: 30px;
+  top: 180px;
+  left: 0px;
   font-family: var(--body-2-font-family);
   font-weight: var(--body-2-font-weight);
   color: #000000;
@@ -4171,7 +4176,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   font-style: var(--body-2-font-style);
 }
 
-.fasilitas .group-8-fasilitas {
+/*.fasilitas .group-8-fasilitas {
   position: absolute;
   width: 262px;
   height: 29px;
@@ -4183,13 +4188,13 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   position: relative;
   width: 264px;
   height: 29px;
-}
+}*/
 
 .fasilitas .text-wrapper-6-fasilitas {
   position: absolute;
   width: 232px;
-  top: 0;
-  left: 30px;
+  top: 180;
+  left: 320px;
   font-family: var(--body-2-font-family);
   font-weight: var(--body-2-font-weight);
   color: #000000;
@@ -4214,7 +4219,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   font-style: var(--body-font-style);
 }
 
-.fasilitas .text-wrapper-7-fasilitas {
+/*.fasilitas .text-wrapper-7-fasilitas {
   position: absolute;
   width: 838px;
   top: 171px;
@@ -4227,14 +4232,14 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   line-height: var(--body-line-height);
   white-space: nowrap;
   font-style: var(--body-font-style);
-}
+}*/
 
 .fasilitas .rectangle-5-fasilitas {
   position: absolute;
   width: 838px;
   height: 365px;
   top: 0;
-  left: 299px;
+  left: 150px;
 }
 
 .fasilitas .group-10-fasilitas {
@@ -4316,16 +4321,16 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   position: absolute;
   width: 61px;
   height: 84px;
-  top: 59px;
-  left: 409px;
+  top: 0px;
+  left: 219px;
 }
 
 .fasilitas .vector-fasilitas {
   position: absolute;
-  width: 59px;
-  height: 52px;
+  width: 292px;
+  height: 203px;
   top: 0;
-  left: 0;
+  left: 72;
 }
 
 .fasilitas .text-wrapper-10-fasilitas {
@@ -4346,16 +4351,16 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   position: absolute;
   width: 95px;
   height: 84px;
-  top: 59px;
-  left: 99px;
+  top: 0px;
+  left: 0px;
 }
 
 .fasilitas .vector-2-fasilitas {
   position: absolute;
-  width: 59px;
-  height: 52px;
+  width: 291px;
+  height: 203px;
   top: 0;
-  left: 16px;
+  left: 0px;
 }
 
 .fasilitas .text-wrapper-11-fasilitas {
