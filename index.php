@@ -173,7 +173,7 @@
                       </div>
                     </div>
                     <div class="group-21">
-                      <a href="layanan.html" role="button">
+                      <a href="layanan.php" role="button">
                         <div class="goals">
                         <div class="text-wrapper-19">Jadwal Pelayanan</div>
                         <img class="element-calendar" src="img/39-calendar.png" />

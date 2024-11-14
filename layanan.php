@@ -290,7 +290,7 @@
       </div>
       <!-- end layanan penunjang medis -->
       <?php include 'layout/header.php'; ?>
-      <?php include 'layout/footer.php'; ?>
+      <?php //include 'layout/footer.php'; ?>
       <?php //include 'layout/navbar.php'; ?>
     </div>
   </body>

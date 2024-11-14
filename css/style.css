@@ -1442,914 +1442,6 @@ iframe {
 Solusi satu-satunya yaa harus mengganti class yang digunakan di profile.css agar tidak tabrakan dengan style.css.
 Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEHARI JADI?? TT*/
 
-
-/*.profile {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.profile .div-profile {
-  background-color: #ffffff;
-  overflow: hidden;
-  width: 1440px;
-  height: 3042px;
-  position: relative;
-}
-
-.profile .footer-profile {
-  position: absolute;
-  width: 1440px;
-  height: 427px;
-  top: 2615px;
-  left: 0;
-  background-color: var(--primary);
-}
-
-.profile .group-profile {
-  position: absolute;
-  width: 278px;
-  height: 110px;
-  top: 70px;
-  left: 197px;
-}
-
-.profile .RSUD-PJS-profile {
-  position: absolute;
-  width: 167px;
-  height: 26px;
-  top: 7px;
-  left: 2px;
-}
-
-.profile .memimpin-dalam-profile {
-  position: absolute;
-  width: 274px;
-  top: 60px;
-  left: 0;
-  font-family: var(--body-2-font-family);
-  font-weight: var(--body-2-font-weight);
-  color: var(--white);
-  font-size: var(--body-2-font-size);
-  letter-spacing: var(--body-2-letter-spacing);
-  line-height: var(--body-2-line-height);
-  font-style: var(--body-2-font-style);
-}
-
-.profile .group-2-profile {
-  position: absolute;
-  width: 172px;
-  height: 198px;
-  top: 70px;
-  left: 724px;
-}
-
-.profile .text-wrapper-profile {
-  position: absolute;
-  width: 128px;
-  top: 0;
-  left: 0;
-  font-family: "Work Sans", Helvetica;
-  font-weight: 600;
-  color: var(--white);
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.profile .group-3-profile {
-  position: absolute;
-  width: 180px;
-  height: 138px;
-  top: 60px;
-  left: 0;
-}
-
-.profile .text-wrapper-2-profile {
-  position: absolute;
-  width: 56px;
-  top: 0;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .text-wrapper-3-profile {
-  position: absolute;
-  width: 149px;
-  top: 29px;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .text-wrapper-4-profile {
-  position: absolute;
-  width: 153px;
-  top: 58px;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .text-wrapper-5-profile {
-  position: absolute;
-  width: 170px;
-  top: 87px;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .text-wrapper-6-profile {
-  position: absolute;
-  width: 147px;
-  top: 116px;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .group-4-profile {
-  position: absolute;
-  width: 287px;
-  height: 211px;
-  top: 68px;
-  left: 958px;
-}
-
-.profile .text-wrapper-7-profile {
-  position: absolute;
-  width: 130px;
-  top: 0;
-  left: 0;
-  font-family: "Work Sans", Helvetica;
-  font-weight: 600;
-  color: var(--white);
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.profile .group-5-profile {
-  position: absolute;
-  width: 293px;
-  height: 151px;
-  top: 60px;
-  left: 0;
-}
-
-.profile .text-wrapper-8-profile {
-  position: absolute;
-  width: 230px;
-  top: 0;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .p-profile {
-  position: absolute;
-  width: 230px;
-  top: 129px;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .text-wrapper-9-profile {
-  width: 285px;
-  top: 29px;
-  left: 0;
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  line-height: var(--body-line-height);
-  position: absolute;
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  font-style: var(--body-font-style);
-}
-
-.profile .alamat-jl-h-hasan-profile {
-  position: absolute;
-  width: 284px;
-  top: 58px;
-  left: 0;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: var(--white);
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .vector-profile {
-  position: absolute;
-  width: 1046px;
-  height: 1px;
-  top: 316px;
-  left: 197px;
-  object-fit: cover;
-}
-
-.profile .img-profile {
-  position: absolute;
-  width: 25px;
-  height: 24px;
-  top: 361px;
-  left: 1218px;
-}
-
-.profile .text-wrapper-10-profile {
-  position: absolute;
-  width: 585px;
-  top: 362px;
-  left: 197px;
-  font-family: "Work Sans", Helvetica;
-  font-weight: 400;
-  color: var(--white);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.profile .prestasi-profile {
-  position: absolute;
-  width: 1167px;
-  height: 598px;
-  top: 1917px;
-  left: 138px;
-}
-
-.profile .rectangle-profile {
-  position: absolute;
-  width: 479px;
-  height: 598px;
-  top: 0;
-  left: 0;
-}
-
-.profile .group-6-profile {
-  position: absolute;
-  width: 149px;
-  height: 29px;
-  top: 341px;
-  left: 506px;
-}
-
-.profile .text-wrapper-11-profile {
-  position: absolute;
-  width: 116px;
-  top: 0;
-  left: 31px;
-  font-family: var(--body-2-font-family);
-  font-weight: var(--body-2-font-weight);
-  color: #000000;
-  font-size: var(--body-2-font-size);
-  letter-spacing: var(--body-2-letter-spacing);
-  line-height: var(--body-2-line-height);
-  white-space: nowrap;
-  font-style: var(--body-2-font-style);
-}
-
-.profile .rectangle-2-profile {
-  position: absolute;
-  width: 19px;
-  height: 19px;
-  top: 5px;
-  left: 0;
-  background-color: var(--secondary);
-  border-radius: 50px;
-}
-
-.profile .group-7-profile {
-  position: absolute;
-  width: 152px;
-  height: 29px;
-  top: 298px;
-  left: 506px;
-}
-
-.profile .text-wrapper-12-profile {
-  position: absolute;
-  width: 120px;
-  top: 0;
-  left: 31px;
-  font-family: var(--body-2-font-family);
-  font-weight: var(--body-2-font-weight);
-  color: #000000;
-  font-size: var(--body-2-font-size);
-  letter-spacing: var(--body-2-letter-spacing);
-  line-height: var(--body-2-line-height);
-  white-space: nowrap;
-  font-style: var(--body-2-font-style);
-}
-
-.profile .group-8-profile {
-  position: absolute;
-  width: 177px;
-  height: 29px;
-  top: 255px;
-  left: 505px;
-}
-
-.profile .text-wrapper-13-profile {
-  position: absolute;
-  width: 145px;
-  top: 0;
-  left: 31px;
-  font-family: var(--body-2-font-family);
-  font-weight: var(--body-2-font-weight);
-  color: #000000;
-  font-size: var(--body-2-font-size);
-  letter-spacing: var(--body-2-letter-spacing);
-  line-height: var(--body-2-line-height);
-  white-space: nowrap;
-  font-style: var(--body-2-font-style);
-}
-
-.profile .group-9-profile {
-  position: absolute;
-  width: 404px;
-  height: 29px;
-  top: 207px;
-  left: 505px;
-}
-
-.profile .text-wrapper-14-profile {
-  position: absolute;
-  width: 371px;
-  top: 0;
-  left: 31px;
-  font-family: var(--body-2-font-family);
-  font-weight: var(--body-2-font-weight);
-  color: #000000;
-  font-size: var(--body-2-font-size);
-  letter-spacing: var(--body-2-letter-spacing);
-  line-height: var(--body-2-line-height);
-  white-space: nowrap;
-  font-style: var(--body-2-font-style);
-}
-
-.profile .group-10-profile {
-  position: absolute;
-  width: 333px;
-  height: 29px;
-  top: 159px;
-  left: 505px;
-}
-
-.profile .text-wrapper-15-profile {
-  position: absolute;
-  width: 301px;
-  top: 0;
-  left: 31px;
-  font-family: var(--body-2-font-family);
-  font-weight: var(--body-2-font-weight);
-  color: #000000;
-  font-size: var(--body-2-font-size);
-  letter-spacing: var(--body-2-letter-spacing);
-  line-height: var(--body-2-line-height);
-  white-space: nowrap;
-  font-style: var(--body-2-font-style);
-}
-
-.profile .group-11-profile {
-  position: absolute;
-  width: 473px;
-  height: 99px;
-  top: 0;
-  left: 503px;
-}
-
-.profile .text-wrapper-16-profile {
-  position: absolute;
-  width: 469px;
-  top: 34px;
-  left: 0;
-  font-family: var(--display-1-font-family);
-  font-weight: var(--display-1-font-weight);
-  color: var(--primary);
-  font-size: var(--display-1-font-size);
-  letter-spacing: var(--display-1-letter-spacing);
-  line-height: var(--display-1-line-height);
-  font-style: var(--display-1-font-style);
-}
-
-.profile .rsud-pangeran-jaya-profile {
-  position: absolute;
-  width: 425px;
-  top: 0;
-  left: 0;
-  font-family: var(--caption-font-family);
-  font-weight: var(--caption-font-weight);
-  color: var(--secondary);
-  font-size: var(--caption-font-size);
-  letter-spacing: var(--caption-letter-spacing);
-  line-height: var(--caption-line-height);
-  font-style: var(--caption-font-style);
-}
-
-.profile .text-wrapper-17-profile {
-  position: absolute;
-  width: 663px;
-  top: 402px;
-  left: 503px;
-  font-family: var(--body-font-family);
-  font-weight: var(--body-font-weight);
-  color: #000000;
-  font-size: var(--body-font-size);
-  letter-spacing: var(--body-letter-spacing);
-  line-height: var(--body-line-height);
-  font-style: var(--body-font-style);
-}
-
-.profile .motto-profile {
-  position: absolute;
-  width: 1440px;
-  height: 441px;
-  top: 1376px;
-  left: 0;
-  background-image: url(../img/rectangle-53.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.profile .overlap-group-profile {
-  position: relative;
-  height: 441px;
-}
-
-.profile .rectangle-3-profile {
-  position: absolute;
-  width: 1440px;
-  height: 441px;
-  top: 0;
-  left: 0;
-  background-color: var(--primary);
-  opacity: 0.6;
-}
-
-.profile .group-12-profile {
-  position: absolute;
-  width: 698px;
-  height: 313px;
-  top: 64px;
-  left: 373px;
-}
-
-.profile .vector-2-profile {
-  position: absolute;
-  width: 47px;
-  height: 30px;
-  top: 0;
-  left: 324px;
-}
-
-.profile .text-wrapper-18-profile {
-  position: absolute;
-  width: 694px;
-  top: 70px;
-  left: 0;
-  font-family: "Work Sans", Helvetica;
-  font-weight: 400;
-  color: var(--white);
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 30.8px;
-}
-
-.profile .john-doe-profile {
-  position: absolute;
-  top: 234px;
-  left: 306px;
-  font-family: "Suez One", Helvetica;
-  font-weight: 400;
-  color: var(--white);
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 30.8px;
-  white-space: nowrap;
-}
-
-.profile .vector-3-profile {
-  position: absolute;
-  width: 233px;
-  height: 1px;
-  top: 214px;
-  left: 230px;
-  object-fit: cover;
-}
-
-.profile .group-13-profile {
-  position: absolute;
-  width: 78px;
-  height: 18px;
-  top: 295px;
-  left: 308px;
-}
-
-.profile .rectangle-4-profile {
-  position: absolute;
-  width: 19px;
-  height: 18px;
-  top: 0;
-  left: 0;
-  background-color: var(--white);
-  border-radius: 50px;
-}
-
-.profile .rectangle-5-profile {
-  position: absolute;
-  width: 19px;
-  height: 18px;
-  top: 0;
-  left: 30px;
-  background-color: var(--accent);
-  border-radius: 50px;
-}
-
-.profile .rectangle-6-profile {
-  position: absolute;
-  width: 19px;
-  height: 18px;
-  top: 0;
-  left: 59px;
-  background-color: var(--white);
-  border-radius: 50px;
-}
-
-.profile .visi-misi-profile {
-  position: absolute;
-  width: 1441px;
-  height: 693px;
-  top: 683px;
-  left: 0;
-}
-
-.profile .overlap-profile {
-  position: relative;
-  height: 693px;
-}
-
-.profile .background-visi-misi-profile {
-  position: absolute;
-  width: 1441px;
-  height: 693px;
-  top: 0;
-  left: 0;
-}
-
-.profile .overlap-group-2-profile {
-  position: relative;
-  width: 1440px;
-  height: 693px;
-}
-
-.profile .rectangle-7-profile {
-  position: absolute;
-  width: 1439px;
-  height: 693px;
-  top: 0;
-  left: 1px;
-  object-fit: cover;
-}
-
-.profile .rectangle-8-profile {
-  position: absolute;
-  width: 1440px;
-  height: 693px;
-  top: 0;
-  left: 0;
-  background-color: var(--white);
-  opacity: 0.8;
-}
-
-.profile .misi-profile {
-  position: absolute;
-  width: 1171px;
-  height: 334px;
-  top: 288px;
-  left: 136px;
-}
-
-.profile .overlap-2-profile {
-  position: relative;
-  width: 1169px;
-  height: 334px;
-  background-color: var(--primary);
-  border-radius: 5px;
-}
-
-.profile .menjalankan-tata-wrapper-profile {
-  position: absolute;
-  width: 1047px;
-  height: 15px;
-  top: 91px;
-  left: 66px;
-}
-
-.profile .menjalankan-tata-profile {
-  position: absolute;
-  width: 1045px;
-  top: 0;
-  left: 0;
-  font-family: var(--title-font-family);
-  font-weight: var(--title-font-weight);
-  color: var(--white);
-  font-size: var(--title-font-size);
-  letter-spacing: var(--title-letter-spacing);
-  line-height: var(--title-line-height);
-  white-space: nowrap;
-  font-style: var(--title-font-style);
-}
-
-.profile .text-wrapper-19-profile {
-  position: absolute;
-  width: 109px;
-  top: 25px;
-  left: 530px;
-  font-family: var(--display-1-font-family);
-  font-weight: var(--display-1-font-weight);
-  color: #ffffff;
-  font-size: var(--display-1-font-size);
-  letter-spacing: var(--display-1-letter-spacing);
-  line-height: var(--display-1-line-height);
-  white-space: nowrap;
-  font-style: var(--display-1-font-style);
-}
-
-.profile .visi-profile {
-  position: absolute;
-  width: 1171px;
-  height: 172px;
-  top: 71px;
-  left: 136px;
-}
-
-.profile .overlap-3-profile {
-  position: relative;
-  width: 1169px;
-  height: 172px;
-  background-color: var(--primary);
-  border-radius: 5px;
-}
-
-.profile .text-wrapper-20-profile {
-  position: absolute;
-  width: 91px;
-  top: 11px;
-  left: 539px;
-  font-family: var(--display-1-font-family);
-  font-weight: var(--display-1-font-weight);
-  color: #ffffff;
-  font-size: var(--display-1-font-size);
-  letter-spacing: var(--display-1-letter-spacing);
-  line-height: var(--display-1-line-height);
-  white-space: nowrap;
-  font-style: var(--display-1-font-style);
-}
-
-.profile .div-wrapper-profile {
-  position: absolute;
-  width: 1033px;
-  height: 75px;
-  top: 84px;
-  left: 66px;
-}
-
-.profile .text-wrapper-21-profile {
-  position: absolute;
-  width: 1031px;
-  top: 0;
-  left: 0;
-  font-family: var(--title-font-family);
-  font-weight: var(--title-font-weight);
-  color: var(--white);
-  font-size: var(--title-font-size);
-  text-align: center;
-  letter-spacing: var(--title-letter-spacing);
-  line-height: var(--title-line-height);
-  font-style: var(--title-font-style);
-}
-
-.profile .greeting-profile {
-  position: absolute;
-  width: 655px;
-  height: 73px;
-  top: 510px;
-  left: 394px;
-}
-
-.profile .text-wrapper-22-profile {
-  position: absolute;
-  top: 36px;
-  left: 0;
-  font-family: var(--display-2-font-family);
-  font-weight: var(--display-2-font-weight);
-  color: var(--primary);
-  font-size: var(--display-2-font-size);
-  text-align: center;
-  letter-spacing: var(--display-2-letter-spacing);
-  line-height: var(--display-2-line-height);
-  white-space: nowrap;
-  font-style: var(--display-2-font-style);
-}
-
-.profile .text-wrapper-23-profile {
-  position: absolute;
-  top: 0;
-  left: 71px;
-  font-family: "Work Sans", Helvetica;
-  font-weight: 700;
-  color: var(--secondary);
-  font-size: 26px;
-  text-align: center;
-  letter-spacing: 4.16px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.profile .sub-head-profile {
-  position: absolute;
-  width: 1440px;
-  height: 250px;
-  top: 160px;
-  left: 0;
-  background-image: url(../img/rectangle-3.png);
-  background-size: 100% 100%;
-}
-
-.profile .overlap-4-profile {
-  position: relative;
-  height: 250px;
-  background-color: #ffffff80;
-}
-
-.profile .overlap-group-wrapper-profile {
-  position: absolute;
-  width: 1440px;
-  height: 250px;
-  top: 0;
-  left: 0;
-}
-
-.profile .overlap-group-3-profile {
-  position: relative;
-  height: 250px;
-}
-
-.profile .frame-profile {
-  position: absolute;
-  width: 1440px;
-  height: 250px;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
-
-.profile .ellipse-profile {
-  position: absolute;
-  width: 256px;
-  height: 256px;
-  top: 122px;
-  left: 1312px;
-  background-color: var(--accent);
-  border-radius: 128px;
-  opacity: 0.5;
-}
-
-.profile .ellipse-2-profile {
-  position: absolute;
-  width: 239px;
-  height: 239px;
-  top: -119px;
-  left: -119px;
-  background-color: var(--secondary);
-  border-radius: 119.5px;
-  opacity: 0.3;
-}
-
-.profile .group-14-profile {
-  position: absolute;
-  width: 1440px;
-  height: 8px;
-  top: 242px;
-  left: 0;
-}
-
-.profile .rectangle-9-profile {
-  position: absolute;
-  width: 883px;
-  height: 8px;
-  top: 0;
-  left: 322px;
-  background-color: var(--primary);
-}
-
-.profile .rectangle-10-profile {
-  position: absolute;
-  width: 235px;
-  height: 8px;
-  top: 0;
-  left: 1205px;
-  background-color: var(--secondary);
-}
-
-.profile .rectangle-11-profile {
-  position: absolute;
-  width: 322px;
-  height: 8px;
-  top: 0;
-  left: 0;
-  background-color: var(--accent);
-}
-
-.profile .overlap-wrapper-profile {
-  position: absolute;
-  width: 152px;
-  height: 76px;
-  top: 76px;
-  left: 197px;
-}
-
-.profile .overlap-5-profile {
-  position: relative;
-  width: 148px;
-  height: 76px;
-}
-
-.profile .text-wrapper-24-profile {
-  position: absolute;
-  width: 148px;
-  top: 21px;
-  left: 0;
-  font-family: var(--display-1-font-family);
-  font-weight: var(--display-1-font-weight);
-  color: var(--primary);
-  font-size: var(--display-1-font-size);
-  letter-spacing: var(--display-1-letter-spacing);
-  line-height: var(--display-1-line-height);
-  font-style: var(--display-1-font-style);
-}
-
-.profile .text-wrapper-25-profile {
-  position: absolute;
-  width: 145px;
-  top: 0;
-  left: 0;
-  font-family: var(--body-2-font-family);
-  font-weight: var(--body-2-font-weight);
-  color: var(--primary);
-  font-size: var(--body-2-font-size);
-  letter-spacing: var(--body-2-letter-spacing);
-  line-height: var(--body-2-line-height);
-  font-style: var(--body-2-font-style);
-}*/
-
-
-
 .profile {
   position: relative;
   width: 1440px;
@@ -4045,13 +3137,13 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   font-style: var(--body-2-font-style);
 }
 
-.fasilitas .group-3-fasilitas {
+/*.fasilitas .group-3-fasilitas {
   position: absolute;
   width: 1137px;
   height: 649px;
   top: 638px;
   left: 168px;
-}
+} */
 
 .fasilitas .img-fasilitas {
   position: absolute;
@@ -4061,15 +3153,15 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   left: 0;
 }
 
-.fasilitas .group-4-fasilitas {
+/*.fasilitas .group-4-fasilitas {
   position: absolute;
   width: 844px;
   height: 234px;
   top: 415px;
   left: 299px;
-}
+}*/
 
-.fasilitas .text-wrapper-3-fasilitas {
+/*.fasilitas .text-wrapper-3-fasilitas {
   position: absolute;
   width: 654px;
   top: 0;
@@ -4081,31 +3173,31 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   letter-spacing: var(--display-2-letter-spacing);
   line-height: var(--display-2-line-height);
   font-style: var(--display-2-font-style);
-}
+}*/
 
-.fasilitas .group-5-fasilitas {
+/*.fasilitas .group-5-fasilitas {
   position: absolute;
   width: 757px;
   height: 29px;
   top: 205px;
   left: 0;
-}
+}*/
 
 .fasilitas .group-wrapper-fasilitas {
   position: absolute;
   width: 243px;
   height: 29px;
-  top: 0;
-  left: 0;
+  top: 180;
+  right: 250;
 }
 
-.fasilitas .group-6-fasilitas {
+/*.fasilitas .group-6-fasilitas {
   position: relative;
   width: 245px;
   height: 29px;
-}
+}*/
 
-.fasilitas .text-wrapper-4-fasilitas {
+/* .fasilitas .text-wrapper-4-fasilitas {
   position: absolute;
   width: 213px;
   top: 0;
@@ -4118,17 +3210,17 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   line-height: var(--body-2-line-height);
   white-space: nowrap;
   font-style: var(--body-2-font-style);
-}
+} */
 
 .fasilitas .rectangle-4-fasilitas {
   position: absolute;
-  width: 18px;
-  height: 18px;
-  top: 5px;
-  left: 0;
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 10px;
   background-color: var(--secondary);
   border-radius: 50px;
-}
+}*/
 
 .fasilitas .div-wrapper-fasilitas {
   position: absolute;
@@ -4140,15 +3232,17 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
 
 .fasilitas .group-7-fasilitas {
   position: relative;
-  width: 149px;
+  width: 213px;
   height: 29px;
-}
+  top: 180px;
+
+}*/
 
 .fasilitas .text-wrapper-5-fasilitas {
   position: absolute;
   width: 117px;
-  top: 0;
-  left: 30px;
+  top: 180px;
+  left: 0px;
   font-family: var(--body-2-font-family);
   font-weight: var(--body-2-font-weight);
   color: #000000;
@@ -4159,7 +3253,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   font-style: var(--body-2-font-style);
 }
 
-.fasilitas .group-8-fasilitas {
+/*.fasilitas .group-8-fasilitas {
   position: absolute;
   width: 262px;
   height: 29px;
@@ -4171,13 +3265,13 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   position: relative;
   width: 264px;
   height: 29px;
-}
+}*/
 
 .fasilitas .text-wrapper-6-fasilitas {
   position: absolute;
   width: 232px;
-  top: 0;
-  left: 30px;
+  top: 180;
+  left: 320px;
   font-family: var(--body-2-font-family);
   font-weight: var(--body-2-font-weight);
   color: #000000;
@@ -4202,7 +3296,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   font-style: var(--body-font-style);
 }
 
-.fasilitas .text-wrapper-7-fasilitas {
+/*.fasilitas .text-wrapper-7-fasilitas {
   position: absolute;
   width: 838px;
   top: 171px;
@@ -4215,14 +3309,14 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   line-height: var(--body-line-height);
   white-space: nowrap;
   font-style: var(--body-font-style);
-}
+}*/
 
 .fasilitas .rectangle-5-fasilitas {
   position: absolute;
   width: 838px;
   height: 365px;
   top: 0;
-  left: 299px;
+  left: 150px;
 }
 
 .fasilitas .group-10-fasilitas {
@@ -4304,16 +3398,16 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   position: absolute;
   width: 61px;
   height: 84px;
-  top: 59px;
-  left: 409px;
+  top: 0px;
+  left: 219px;
 }
 
 .fasilitas .vector-fasilitas {
   position: absolute;
-  width: 59px;
-  height: 52px;
+  width: 292px;
+  height: 203px;
   top: 0;
-  left: 0;
+  left: 72;
 }
 
 .fasilitas .text-wrapper-10-fasilitas {
@@ -4334,16 +3428,16 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   position: absolute;
   width: 95px;
   height: 84px;
-  top: 59px;
-  left: 99px;
+  top: 0px;
+  left: 0px;
 }
 
 .fasilitas .vector-2-fasilitas {
   position: absolute;
-  width: 59px;
-  height: 52px;
+  width: 291px;
+  height: 203px;
   top: 0;
-  left: 16px;
+  left: 0px;
 }
 
 .fasilitas .text-wrapper-11-fasilitas {
