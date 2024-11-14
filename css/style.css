@@ -1331,9 +1331,8 @@ iframe {
   background-color: var(--white);
   display: flex;
   justify-content: center;
-  padding: 10px 0;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Tambahan bayangan */
-  
+  padding: 20px 0;
+  /*box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Tambahan bayangan */
 }
 
 /* Responsif untuk layar kecil */
@@ -1601,7 +1600,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   width: 1440px;
   height: 3042px;
   background-color: #ffffff;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .profile .footer-profile {
@@ -2517,7 +2516,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   line-height: var(--display-1-line-height);
   white-space: nowrap;
   font-style: var(--display-1-font-style);
-}*/
+}
 
 /*CSS LAYANAN*/
 .layanan {
@@ -2525,7 +2524,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   width: 1440px;
   height: 5430px;
   background-color: #ffffff;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .layanan .group-6-layanan {
@@ -3664,7 +3663,7 @@ Jadi, semua css nanti jadi satu di file style.css. YAALLAH BISA GA YAA BESOK SEH
   width: 1440px;
   height: 2269px;
   background-color: #ffffff;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .fasilitas .footer-fasilitas {

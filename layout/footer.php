@@ -37,9 +37,9 @@
             </div>
                 <!-- </div> -->
             <!-- </div> -->
+             <p class="text-wrapper-10 text-left">© 2024 RSUD Pangeran Jaya Sumitra All Rights Reserved by IT Support</p>
             <img class="vector" src="img/vector-1.svg" alt="Ikon dekoratif 1"/>
             <img class="vector-3" src="img/vector-3.svg" alt="Ikon dekoratif 2"/>
-            <p class="text-wrapper-10 text-left">© 2024 RSUD Pangeran Jaya Sumitra All Rights Reserved by IT Support</p>
         </div>
       </footer>
     <!-- </div> -->
