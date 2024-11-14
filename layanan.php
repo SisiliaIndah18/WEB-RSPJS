@@ -321,7 +321,10 @@
       </footer>
       <?php include 'layout/header.php'; ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 37f8a8b7a4e135d6c865dfeb75f326c217663ee9
       <?php //include 'layout/footer.php'; ?>
       <?php //include 'layout/navbar.php'; ?>
 >>>>>>> 37f8a8b7a4e135d6c865dfeb75f326c217663ee9
